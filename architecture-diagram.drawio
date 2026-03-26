@@ -1,0 +1,158 @@
+<mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+
+    <!-- Users Data node -->
+    <mxCell id="2" value="Users Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bbdefb;strokeColor=#1565c0;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="50" y="100" width="160" height="60" as="geometry" />
+    </mxCell>
+
+    <!-- Pathways and Journey Progress Report node -->
+    <mxCell id="3" value="Pathways and Journey&#xa;Progress Report" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bbdefb;strokeColor=#1565c0;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="50" y="310" width="160" height="70" as="geometry" />
+    </mxCell>
+
+    <!-- Backend Database node -->
+    <mxCell id="4" value="Backend Database" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#81d4fa;strokeColor=#0277bd;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="290" y="195" width="160" height="70" as="geometry" />
+    </mxCell>
+
+    <!-- Recommendation Agent node -->
+    <mxCell id="5" value="Recommendation Agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#64b5f6;strokeColor=#1565c0;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="580" y="195" width="180" height="60" as="geometry" />
+    </mxCell>
+
+    <!-- Manager Agent (Orchestrator) node -->
+    <mxCell id="6" value="Manager Agent&#xa;(Orchestrator)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b39ddb;strokeColor=#7e57c2;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="860" y="60" width="180" height="70" as="geometry" />
+    </mxCell>
+
+    <!-- Notification Agent node -->
+    <mxCell id="7" value="Notification Agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffb74d;strokeColor=#e65100;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="860" y="250" width="180" height="60" as="geometry" />
+    </mxCell>
+
+    <!-- Tools boundary -->
+    <mxCell id="8" value="Tools" style="swimlane;startSize=30;fillColor=#e8f5e9;strokeColor=#4caf50;fontStyle=1;fontSize=13;align=center;" vertex="1" parent="1">
+      <mxGeometry x="530" y="380" width="560" height="190" as="geometry" />
+    </mxCell>
+
+    <!-- Semantic DB (Content) node (inside Tools) -->
+    <mxCell id="9" value="Semantic DB (Content)" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#80cbc4;strokeColor=#00695c;fontStyle=1;fontSize=12;" vertex="1" parent="8">
+      <mxGeometry x="40" y="60" width="180" height="70" as="geometry" />
+    </mxCell>
+
+    <!-- Email Tool node (inside Tools) -->
+    <mxCell id="10" value="Email Tool" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ef9a9a;strokeColor=#b71c1c;fontStyle=1;fontSize=12;" vertex="1" parent="8">
+      <mxGeometry x="330" y="70" width="180" height="60" as="geometry" />
+    </mxCell>
+
+    <!-- User / Learner node -->
+    <mxCell id="11" value="User / Learner" style="ellipse;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#2e7d32;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="1190" y="270" width="160" height="70" as="geometry" />
+    </mxCell>
+
+    <!-- Legend box -->
+    <mxCell id="12" value="Legend" style="swimlane;startSize=30;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+      <mxGeometry x="50" y="520" width="240" height="270" as="geometry" />
+    </mxCell>
+    <mxCell id="13" value="Orchestrator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b39ddb;strokeColor=#7e57c2;fontSize=11;" vertex="1" parent="12">
+      <mxGeometry x="10" y="45" width="140" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="14" value="Agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#64b5f6;strokeColor=#1565c0;fontSize=11;" vertex="1" parent="12">
+      <mxGeometry x="10" y="85" width="140" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="15" value="Database / Storage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#81d4fa;strokeColor=#0277bd;fontSize=11;" vertex="1" parent="12">
+      <mxGeometry x="10" y="125" width="140" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="16" value="Tool (Content)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#80cbc4;strokeColor=#00695c;fontSize=11;" vertex="1" parent="12">
+      <mxGeometry x="10" y="165" width="140" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="17" value="Tool (Email)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ef9a9a;strokeColor=#b71c1c;fontSize=11;" vertex="1" parent="12">
+      <mxGeometry x="10" y="205" width="140" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="18" value="Notification Agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffb74d;strokeColor=#e65100;fontSize=11;" vertex="1" parent="12">
+      <mxGeometry x="160" y="45" width="70" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="19" value="User / Learner" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c8e6c9;strokeColor=#2e7d32;fontSize=11;" vertex="1" parent="12">
+      <mxGeometry x="160" y="85" width="70" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="20" value="Data Source" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bbdefb;strokeColor=#1565c0;fontSize=11;" vertex="1" parent="12">
+      <mxGeometry x="160" y="125" width="70" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="21" value="── Solid = Data Flow" style="text;html=1;fontSize=11;align=left;" vertex="1" parent="12">
+      <mxGeometry x="10" y="237" width="200" height="15" as="geometry" />
+    </mxCell>
+    <mxCell id="22" value="- - Dashed = Tool Invocation" style="text;html=1;fontSize=11;align=left;" vertex="1" parent="12">
+      <mxGeometry x="10" y="252" width="200" height="15" as="geometry" />
+    </mxCell>
+
+    <!-- Arrow: Users Data → Backend Database (Sync / ETL) -->
+    <mxCell id="30" value="Sync / ETL" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.3;entryDx=0;entryDy=0;endArrow=block;endFill=1;" edge="1" source="2" target="4" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Arrow: Pathways Report → Backend Database (Uploaded to database on daily basis) -->
+    <mxCell id="31" value="Uploaded to database&#xa;on daily basis" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.7;entryDx=0;entryDy=0;endArrow=block;endFill=1;" edge="1" source="3" target="4" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Arrow: Backend Database → Recommendation Agent (User profile) -->
+    <mxCell id="32" value="User profile &amp;&#xa;Content information" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;" edge="1" source="4" target="5" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Arrow: Manager Agent → Recommendation Agent (Delegates) -->
+    <mxCell id="33" value="Delegates" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.7;exitDx=0;exitDy=0;entryX=1;entryY=0.3;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#7e57c2;fontColor=#7e57c2;" edge="1" source="6" target="5" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Arrow: Manager Agent → Notification Agent (Delegates) -->
+    <mxCell id="34" value="Delegates" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeColor=#7e57c2;fontColor=#7e57c2;" edge="1" source="6" target="7" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Arrow: Recommendation Agent → Semantic DB (dashed, tool invocation) -->
+    <mxCell id="35" value="Queries" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;dashPattern=8 4;exitX=0.3;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" source="5" target="9" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Arrow: Semantic DB → Recommendation Agent (Returns matched content) -->
+    <mxCell id="36" value="Returns matched content" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.7;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=1;" edge="1" source="9" target="5" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="650" y="380" />
+          <mxPoint x="670" y="255" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+
+    <!-- Arrow: Recommendation Agent → Notification Agent (Sends recommendation request) -->
+    <mxCell id="37" value="Sends recommendation&#xa;request" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;" edge="1" source="5" target="7" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Arrow: Notification Agent → Email Tool (dashed, tool invocation) -->
+    <mxCell id="38" value="Invokes" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;dashPattern=8 4;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" source="7" target="10" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Arrow: Email Tool → User/Learner (Sends email notification) -->
+    <mxCell id="39" value="Sends email notification" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;" edge="1" source="10" target="11" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- Arrow: User/Learner → Backend Database (Interaction / feedback updates profile) -->
+    <mxCell id="40" value="Interaction / feedback&#xa;updates profile" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=1;" edge="1" source="11" target="4" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="1270" y="620" />
+          <mxPoint x="370" y="620" />
+          <mxPoint x="370" y="265" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+
+  </root>
+</mxGraphModel>
